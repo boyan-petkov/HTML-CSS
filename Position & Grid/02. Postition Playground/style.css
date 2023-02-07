@@ -1,1 +1,54 @@
+/* 
 
+
+
+@import "https://use.fontawesome.com/releases/v6.1.2/css/all.css"; 
+
+*{
+    box-sizing: border-box;
+}
+div{
+    height: 550px;
+}
+.one {
+  background: linear-gradient(to right, rgb(43, 147, 176), rgb(93, 233, 167));
+}
+
+.two {
+  background: linear-gradient(to right, rgb(240, 158, 229), rgb(252, 60, 60));
+}
+
+body{
+    position: relative;
+}
+
+section.card{
+    display: block;
+    position: absolute;
+
+}
+
+.first{
+    position: absolute;
+    top: 12%;
+    left: 40%;
+    width: 40%;
+    padding: 70px 0px;
+}
+
+.second{
+    position: absolute;
+    top: 47%;
+    left: 40%;
+    width: 40%;
+    padding: 70px 0px;
+}
+img{
+    width: 300px;
+}
+i {
+    color: #fff;
+    position: relative;
+    bottom: 10px;
+    right: 28px;
+  } */
