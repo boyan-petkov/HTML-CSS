@@ -1,1 +1,55 @@
+/* 
 
+
+
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: Georgia, serif;
+    font-size: 1em;
+  }
+
+
+
+.card {
+  background-color: rgb(255, 255, 255);
+  height: 600px;
+  width: 500px;
+  position: relative;
+  left: 33%;
+  top: 50px;
+  outline: darkslategrey;
+}
+
+button {
+  background-color: rgb(0, 153, 0);
+  width: 120px;
+  padding: 15px;
+  border-radius: 5px;
+  margin-left: 70%;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+    position: absolute;
+    width: 100%;
+}
+/* .card_title {
+  position: absolute;
+} */
+/* section {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  } */
+.card_title {
+    position: absolute;
+    bottom: 13%;
+    margin: 0 40px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+ */
