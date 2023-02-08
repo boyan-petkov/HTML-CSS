@@ -33,15 +33,7 @@ img {
     position: absolute;
     width: 100%;
 }
-/* .card_title {
-  position: absolute;
-} */
-/* section {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-  } */
+
 .card_title {
     position: absolute;
     bottom: 13%;
