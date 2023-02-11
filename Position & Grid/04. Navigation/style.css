@@ -1,1 +1,123 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat');
+
+header * {
+  display: inline-block;
+}
+.first-header {
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+.first-header h1 {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+body {
+  background-color: rgb(238, 238, 238);
+  /* background-color: gray; */
+  position: absolute;
+  max-width: 100vh;
+  max-height: 100vh;
+  left: 8%;
+  right: 8%;
+  top: 5%;
+  bottom: 5%;
+  font-family: Georgia, serif;
+  font-size: 1em;
+}
+a {
+  color: rgb(0, 102, 0);
+}
+header ul {
+  position: absolute;
+  left: 76%;
+  top: -1%;
+}
+
+header ul li {
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.level,
+.categories h3,
+.social h3 {
+  margin-top: 30px;
+  font-family: Georgia, serif;
+  font-size: 1.2em;
+}
+
+.container {
+  margin-top: 30px;
+  position: static;
+  align-items: center;
+  justify-content: center;
+  max-width: 70%;
+}
+img {
+  float: right;
+  margin-left: 20px;
+  background-color: rgb(255, 255, 255);
+  padding: 3px;
+  border: 5px solid black;
+  box-shadow: 1px rgba(0, 0, 0, 0.25);
+}
+.text {
+  text-align: left;
+  padding-bottom: 20px;
+  margin-right: 5 px;
+}
+
+.first-section {
+  display: inline-block;
+  width: 90%;
+}
+
+aside {
+  position: absolute;
+  display: inline-block;
+  top: 9%;
+  right: 16%;
+}
+
+.categories ul,
+.social ul {
+  padding-left: 30px;
+  margin-top: 12px;
+}
+
+.categories li,
+.social li {
+  cursor: pointer;
+  padding-top: 8px;
+  list-style: disc;
+}
+
+.categories a:hover,
+.social a:hover,
+.home a:hover {
+  color: red;
+}
+
+.arange{
+  margin-right: 80px;
+}
+
+.text2{
+  padding-top: 10px;
+  display: inline-block;
+  width: 50%;
+}
+.side-text {
+  position: absolute;
+  width: 30%;
+  display: inline-block;
+  font-family: Caveat;
+  bottom: 16%;
+  margin-left: 20px;
+}
+.side-text p{
+  padding-bottom: 20px;
+  margin-left: 15px;
+}
