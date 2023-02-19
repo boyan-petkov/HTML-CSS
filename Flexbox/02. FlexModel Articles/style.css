@@ -1,1 +1,26 @@
+/* html{
+    background-color: gray;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+}
 
+h2{
+    font-family: Georgia, serif;
+}
+body{
+    font-family: Helvetica, sans-serif;
+}
+article{
+    width: 280px;
+}
+
+section{
+    max-width: 70vw;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem auto;   
+    
+
+}
+ */
