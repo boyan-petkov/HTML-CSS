@@ -1,4 +1,4 @@
-/* 
+
 html{
     background-color: gray;
     font-family: Helvetica, sans-serif;
@@ -51,4 +51,4 @@ html{
 .item:nth-child(12){
     order: 3;
 }
- */
+
