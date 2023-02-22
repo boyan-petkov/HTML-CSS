@@ -1,1 +1,66 @@
 
+html{
+    background-color: gray;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    max-width: 15vw;
+    height: 35rem;
+    gap: 10px;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    flex-flow: column wrap;
+    margin: 100px;
+    align-content: start;
+    justify-content: stretch;
+
+}
+
+.container span{
+    width: 100px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.item:nth-child(1){
+    order: 9;
+}
+.item:nth-child(2){
+    order: 2;
+}
+.item:nth-child(3){
+    order: 10;
+}
+.item:nth-child(4){
+    order: 4;
+}
+.item:nth-child(5){
+    order: 8;
+}
+.item:nth-child(6){
+    order: 7;
+}
+.item:nth-child(7){
+    order: 11;
+}
+.item:nth-child(8){
+    order: 5;
+}
+.item:nth-child(9){
+    order: 6;
+}
+.item:nth-child(10){
+    order: 12;
+}
+.item:nth-child(11){
+    order: 1;
+}
+.item:nth-child(12){
+    order: 3;
+}
