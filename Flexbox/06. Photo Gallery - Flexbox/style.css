@@ -1,1 +1,29 @@
 
+html {
+  background-color: gray;
+}
+
+body {
+  margin: 90px;
+  width: 85vw;
+}
+
+body,
+ul,
+li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  
+}
+ul{
+    justify-content: space-between;
+}
+
+img {
+  border: solid 6px black;
+  padding: 2rem 1.5rem;
+  object-fit: contain;
+  background-color: white;
+  margin-top: 25px;
+}
