@@ -1,1 +1,47 @@
 
+*,
+/* *::before,
+*::after {
+  box-sizing: border-box;
+} */
+
+html {
+  font-family: Helvetica, sans-serif;
+  line-height: 25px;
+}
+p{
+    line-height: 30px;
+    margin-top: 20px;
+}
+body {
+  min-height: 100vh;
+  background-color: gray;
+  width: 80vw;
+  margin: 80px;
+}
+
+body {
+  display: flex;
+  /* background-color: rgb(238, 238, 238); */
+  /* height: 100vh; */
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+header {
+  padding-bottom: 25px;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.heading-2{
+    margin-top: 50px;
+    font-size: 22px;
+}
+
+.footer{
+    margin-top: 40px;
+    padding-left: 15px;
+    width: 100%;
+    color:rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+}
