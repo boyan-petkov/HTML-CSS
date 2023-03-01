@@ -1,1 +1,25 @@
 
+html{
+    background-color: grey;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    min-height: 500px;
+}
+
+.card{
+    padding: 12px;
+    width: 350px;
+    height: 110px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    border-radius: 5px;
+    justify-content: center;
+}
+.card p{
+    padding-top: 8px;
+}
