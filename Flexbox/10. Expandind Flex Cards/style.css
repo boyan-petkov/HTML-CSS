@@ -1,1 +1,38 @@
 
+html{
+    background-color: gray;
+}
+
+body{
+    display: flex;
+    margin: 60px;
+    min-height: 100vh;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+img {
+    border-radius: 5px;
+    object-fit: cover;
+    background-color: white;
+    margin-top: 10px;
+    width: 150px;
+    height: 400px;
+    margin-right: 12px;
+    cursor: pointer;
+    transition: 1000ms;
+  }
+
+img:hover{
+    border: 3px solid black;
+    width: 550px;
+    /* height: 500px; */
+    transition: 1500ms;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+}
