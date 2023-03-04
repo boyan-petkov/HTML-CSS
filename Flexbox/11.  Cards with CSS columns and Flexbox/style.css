@@ -1,1 +1,43 @@
 
+html{
+    background-color: gray;
+}
+
+body{
+    height: 1000px;
+    border: 1px dashed red;
+    margin: 50px;
+    width: 80vw;
+    display: flex;
+    
+     
+}
+
+.cards-layout{
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 700px;
+    border: 1px solid black;
+    width: 200px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.card section, footer{
+    padding: 10px;
+}
+footer{
+    border-top: 1px solid black;
+}
+
+img{
+    width: 100%;
+}
